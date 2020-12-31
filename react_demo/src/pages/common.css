@@ -1,0 +1,37 @@
+ul,
+li {
+	list-style: none;
+}
+.clearfix::after {
+	content: ' ';
+	clear: both;
+	display: block;
+	visibility: hidden;
+}
+.container .nav-left {
+	background-color: #001529;
+	color: #ffffff;
+	height: calc(100vh);
+}
+.container .main {
+	height: calc(100vh);
+	background-color:white;
+	overflow: auto;
+}
+.container .content {
+	position: relative;
+	padding: 20px;
+}
+
+.content-wrap {
+	background: #ffffff;
+	border: 1px solid #e8e8e8;
+	margin-top: -3px;
+}
+.content-wrap .ant-table-wrapper {
+	margin-left: -1px;
+	margin-right: -2px;
+}
+.ant-card button {
+	margin-right: 10px;
+}

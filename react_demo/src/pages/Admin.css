@@ -1,0 +1,26 @@
+.container {
+	display: flex;
+}
+.container .nav-left {
+    width: 15%;
+    min-width: calc(100%-40px);
+    height: calc(100vh);
+    background-color: #143f45;
+    /* 100vh类似100% */
+}
+.container .main {
+    flex: 1;
+    height: calc(100vh);
+}
+.container .main .content {
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    padding: 20px;
+}
+.container .main .content .left {
+    flex-grow: 1;
+}
+.container .main .content .right {
+    flex-grow: 2;
+}
